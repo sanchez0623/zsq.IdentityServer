@@ -10,4 +10,4 @@ identity server demo
 
 
 1.≤Èø¥identity server≈‰÷√
-http://localhost:5000/.well-known/openid-configuration
+http://localhost:6230/.well-known/openid-configuration

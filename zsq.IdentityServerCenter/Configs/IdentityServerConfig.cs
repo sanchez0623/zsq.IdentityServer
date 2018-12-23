@@ -1,4 +1,4 @@
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using IdentityServer4.Models;
 
 namespace zsq.IdentityServerCenter
@@ -17,14 +17,12 @@ namespace zsq.IdentityServerCenter
         {
             return new List<Client>
             {
+                //GrantType.ClientCredentials模式只能使用form-data
                 new Client
                 {
                     ClientId="client",
-                    AllowedGrantTypes=GrantTypes.ClientCredentials,
-                    ClientSecrets=
-                    {
-                        new Secret("secrct".Sha256())
-                    },
+                    AllowedGrantTypes= { GrantType.ClientCredentials},
+                    ClientSecrets={ new Secret("secret".Sha256())},
                     AllowedScopes={"api"}//这个client允许访问的apiResource（对应apiResource的名称）
                 }
             };
