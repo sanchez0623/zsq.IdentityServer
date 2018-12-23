@@ -29,7 +29,8 @@ namespace zsq.IdentityServerCenter
             services.AddIdentityServer()
                 .AddDeveloperSigningCredential()
                 .AddInMemoryApiResources(IdentityServerConfig.GetResources())
-                .AddInMemoryClients(IdentityServerConfig.GetClients());
+                .AddInMemoryClients(IdentityServerConfig.GetClients())
+                .AddTestUsers(IdentityServerConfig.GetTestUsers());
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }
