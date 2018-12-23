@@ -2,12 +2,17 @@
 identity server demo
 
 
-1.Ìí¼Ónuget identityserver4°ü
-2.Ìí¼Óstart upÅäÖÃ
-3.Ìí¼Óconfig.csÅäÖÃÀà
-4.¸ü¸Äidentity server4ÅäÖÃ
-5.Ìí¼Ó¿Í»§¶ËÅäÖÃ
+1.æ·»åŠ nuget identityserver4åŒ…
+
+2.æ·»åŠ start upé…ç½®
+
+3.æ·»åŠ config.csé…ç½®ç±»
+
+4.æ›´æ”¹identity server4é…ç½®
+
+5.æ·»åŠ å®¢æˆ·ç«¯é…ç½®
 
 
-1.²é¿´identity serverÅäÖÃ
+1.æŸ¥çœ‹identity serveré…ç½®
+
 http://localhost:6230/.well-known/openid-configuration
