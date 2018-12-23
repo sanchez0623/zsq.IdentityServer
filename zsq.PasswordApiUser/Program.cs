@@ -21,7 +21,7 @@ namespace zsq.PasswordApiUser
             {
                 Address = disco.TokenEndpoint,
                 ClientId = "pwdClient",
-                ClientSecret = "secret",
+                //ClientSecret = "secret",//RequireClientSecret=false则不需要传ClientSecret
                 UserName = "sanchez",
                 Password = "123456",
                 Scope = "api"
